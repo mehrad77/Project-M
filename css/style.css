@@ -1,3 +1,25 @@
+body {
+	direction:ltr;
+	margin: auto;
+}
 .bold {
     font-weight: bold;
+}
+/*****************************************
+******* top section (music player) ******* 
+ *****************************************/
+ 
+.musicInfoSec {
+  background: 
+  linear-gradient(to bottom right, #830024 50.1%, transparent 50.6%) no-repeat bottom, /* bottom part */ 
+  linear-gradient(0deg, #830024, #830024) no-repeat top; /* top portion */
+  color: white;
+  padding-bottom: 3em;
+  background-size: 100% 10em, 100% calc(100% - 10em)
+}
+.mainCover{
+	max-width:200px;
+}
+{
+	
 }

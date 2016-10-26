@@ -6,11 +6,23 @@
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="stylesheet" type="text/css" href="css/style.css">
-	<script src="js/popcorn-complete.min.js "></script>
-	<script src="js/jquery.js"></script>
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
 </head>
 
 <body>
+<div class="musicInfoSec">
+  <img class="mainCover" src="img/cover.jpg" />
+  <h1>We're faling</h1>
+  <h2>Common elemnt | Hadi Pakzad, Masih Gharavi<h2>
+</div>
+
+
+
+<ol>
+  <li>Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</li>
+  <li>Aliquam tincidunt mauris eu risus.</li>
+</ol>
+
 	<audio id="musicInst" controls src="media/Were_Falling.mp3"></audio>
 	<p id="poem">
 	</p>
@@ -19,10 +31,19 @@
 
 </html>
 </body>
+	<script src="js/jquery.js"></script>
+	<script src="js/popcorn-complete.min.js "></script>
+	<script src="js/bootstrap.min.js"></script>
 	<script>
-	document.addEventListener('DOMContentLoaded', function () {
+	document.addEventListener('DOMContentLoaded', function () { /** wait for DOM to load **/
+	
+		/** setting up lyric JSON array in a tamplate
+		"s" means "Start second"
+		"e" means "end second"
+		"content" means the content of a Specific time, verse
+		**/
 		var lyric = [
-		{ "s":"20" , "e":"30", "content":"من دارم می گندم، پس چرا می خندم؟" },
+		{ "s":"20" , "e":"30", "content":"من دارم می گندم، پس چرا م ی خندم؟" },
 		{ "s":"30" , "e":"39", "content":"من دارم می سوزم، چرا لب می دوزم؟" },
 		{ "s":"40" , "e":"49", "content":"ما داریم می بینیم، پس چرا می شینیم" },
 		{ "s":"50" , "e":"59", "content":"ما از هم نگذشتیم، ولی دیر برگشتیم" },
@@ -43,13 +64,17 @@
 		];
 		
 
-
+		/** Generate poems by JOSM datas, via for loop **/
 		for (i = 0; i < lyric.length; i++) {
 			item = '<span id="verse'+i+'" class="verse nota">' + lyric[i].content + '</span><br>';
 			document.getElementById("poem").innerHTML = document.getElementById("poem").innerHTML + item;
 		}
+		
+		
 		var m = document.getElementById("musicInst");
-		m.addEventListener( "timeupdate", function( e ) {
+		m.addEventListener( "timeupdate", function( e ) { /** Music player time update event
+		Generate Javascript code for every verse via PHP 
+		(Adding Bold class for Active verse and remove that in INAZCTIVE verses**/
 			<?php for ($j = 0;$j < 18;$j++){
 				if ($j==0)$h = $j+1;else $h = $j-1;
 				echo 'if (lyric['.$j.'].s < m.currentTime && lyric['.$j.'].e > m.currentTime){
@@ -75,8 +100,9 @@
 			?>
 		}, false );
 	});
-		
-		
-		
 	</script>
+
+		
+		
+	
 </html>

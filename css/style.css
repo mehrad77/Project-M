@@ -6,20 +6,66 @@ body {
     font-weight: bold;
 }
 /*****************************************
-******* top section (music player) ******* 
+******* top section (music info) ******* 
  *****************************************/
  
-.musicInfoSec {
-  background: 
-  linear-gradient(to bottom right, #830024 50.1%, transparent 50.6%) no-repeat bottom, /* bottom part */ 
-  linear-gradient(0deg, #830024, #830024) no-repeat top; /* top portion */
-  color: white;
-  padding-bottom: 3em;
-  background-size: 100% 10em, 100% calc(100% - 10em)
+.musicInfoSecOut { /** warpper **/
+	background: 
+		linear-gradient(to bottom right, #830024 50.1%, transparent 50.6%) no-repeat bottom, /* bottom part */ 
+		linear-gradient(0deg, #830024, #830024) no-repeat top; /* top portion */
+	color: white;
+	padding-bottom: 5em;
+	background-size: 100% 10em, 100% calc(100% - 10em);
 }
-.mainCover{
-	max-width:200px;
+.musicInfoSecIn{
+	margin-top:30px;
 }
-{
-	
+#musicName{
+	display: inline;
+}
+#albumName{
+}   
+.coverDiv div{
+	margin-left: 60px;
+}
+	.coverDiv .mainCover{
+		max-width:300px;
+	}
+.label{
+	padding:5px;
+	margin:3px;
+}
+
+
+/*****************************************
+*********** Music Player styels ********** 
+ *****************************************/
+#timeline{
+	width: 400px;
+	height: 20px;
+	background: #4200f7;
+	float: left;
+	border-radius: 15px;
+}
+#playhead{
+	width: 18px;
+	height: 18px;
+	border-radius: 50%;
+	margin-top: 1px;
+	background: rgba(0, 255, 196, 0.82);
+}
+#pButton{
+	height:30px; 
+	width: 30px;
+	border: none;
+	background-size: 50% 50%;
+	background-position: center;
+}
+.fa-play , .fa-pause{
+	display: inline-block;
+    font: normal normal normal 14px/1 FontAwesome;
+    font-size: inherit;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
 }

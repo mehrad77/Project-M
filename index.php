@@ -1,39 +1,63 @@
+<?php
+header("Cache-Control: no-cache, no-store, must-revalidate"); // HTTP 1.1.
+header("Pragma: no-cache"); // HTTP 1.0.
+header("Expires: 0"); // Proxies.
+?>
 <!DOCTYPE html>
 <html lang="fa">
 
 <head>
-	<title></title>
+<meta http-equiv="cache-control" content="max-age=0" />
+<meta http-equiv="cache-control" content="no-cache" />
+<meta http-equiv="expires" content="0" />
+<meta http-equiv="expires" content="Tue, 01 Jan 1980 1:00:00 GMT" />
+<meta http-equiv="pragma" content="no-cache" />
+	<title>Hadi pakzad</title>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="stylesheet" href="css/font-awesome.min.css">
 	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+		<link rel="stylesheet" type="text/css" href="css/style.css">
 </head>
-
 <body>
-<div class="musicInfoSec">
-  <img class="mainCover" src="img/cover.jpg" />
-  <h1>We're faling</h1>
-  <h2>Common elemnt | Hadi Pakzad, Masih Gharavi<h2>
+
+<div class="row musicInfoSecOut"> <!-- Warpper -->
+	<div class="musicInfoSecIn">
+	
+		<div class="col-md-4 coverDiv">
+			<div>
+				<img class="mainCover" src="img/cover.jpg" />
+				<div id="audioplayer">
+					<button id="pButton" class="fa fa-play" onclick="playAudio()"></button>
+					<div id="timeline">
+						<div id="playhead"></div>
+					</div>
+				</div>
+			</div>
+		</div>
+		
+		<div class="col-md-8">
+			<h1 id="musicName">We're faling</h1>
+			<h2 id="albumName">Common elemnt | Hadi Pakzad, Masih Gharavi</h2>
+			<span class="label label-primary"> + </span><span class="label label-primary"> - </span><span class="label label-primary"> + </span><span class="label label-primary"> - </span>
+			</br>
+			sample: 2004 </br>
+			sample: testRock </br>
+			sample: testtest test </br>
+		</div>
+	</div>
 </div>
 
-
-
-<ol>
-  <li>Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</li>
-  <li>Aliquam tincidunt mauris eu risus.</li>
-</ol>
-
-	<audio id="musicInst" controls src="media/Were_Falling.mp3"></audio>
-	<p id="poem">
-	</p>
+	<p id="poem"></p>
 	<div id="footnotediv "></div>
+	<audio id="musicInst" controls="controls" src="media/Were_Falling.mp3">
+	</audio>
 </body>
 
-</html>
-</body>
 	<script src="js/jquery.js"></script>
 	<script src="js/popcorn-complete.min.js "></script>
 	<script src="js/bootstrap.min.js"></script>
+	<script src="js/custom.js"></script>
 	<script>
 	document.addEventListener('DOMContentLoaded', function () { /** wait for DOM to load **/
 	
@@ -72,6 +96,20 @@
 		
 		
 		var m = document.getElementById("musicInst");
+		var pButton = document.getElementById("pButton");
+		
+			function playAudio() {
+				if (m.paused) {
+					m.play();
+					pButton.className = "";
+					pButton.className = "pause";
+				} else { 
+					m.pause();
+					pButton.className = "";
+					pButton.className = "play";
+				}
+			}
+		
 		m.addEventListener( "timeupdate", function( e ) { /** Music player time update event
 		Generate Javascript code for every verse via PHP 
 		(Adding Bold class for Active verse and remove that in INAZCTIVE verses**/
@@ -81,7 +119,6 @@
 				cs = document.getElementById("verse'.$j.'");
 				bcs = document.getElementById("verse'.$h.'");
 				allcs = document.getElementsByClassName("verse");
-				console.log(allcs);
 				bcs.classNam = "verse nota ";';
 				
 				for ($l = 0;$l < 18;$l++){
@@ -93,10 +130,6 @@
 				echo 'cs.className = "verse bold";
 				}';} 
 				;
-			?>
-			
-			<?php 
-
 			?>
 		}, false );
 	});

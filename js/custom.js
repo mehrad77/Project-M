@@ -5,7 +5,6 @@ var duration; // Duration of audio clip
 var pButton = document.getElementById('pButton'); // play button
 
 var playhead = document.getElementById('playhead'); // playhead
-
 var timeline = document.getElementById('timeline'); // timeline
 // timeline width adjusted for playhead
 var timelineWidth = timeline.offsetWidth - playhead.offsetWidth;
@@ -61,8 +60,6 @@ function moveplayhead(e) {
 	if (newMargLeft > timelineWidth) {
 		playhead.style.marginLeft = timelineWidth + "px";
 	}
-	m.play();
-	pButton.className = "fa-pause";
 }
 
 // timeUpdate 
@@ -72,7 +69,7 @@ function timeUpdate() {
 	playhead.style.marginLeft = playPercent + "px";
 	if (m.currentTime == duration) {
 		pButton.className = "";
-		pButton.className = "fa-play";
+		pButton.className = "play";
 	}
 }
 
@@ -99,3 +96,19 @@ m.addEventListener("canplaythrough", function () {
 
 
 
+/****************************************************
+************* Audio Volume Controler ****************
+*****************************************************/
+
+var Vhead = document.getElementById('Vhead');
+var Vline = document.getElementById('Vline');
+
+//Makes Volumeline clickable
+m.addEventListener("volumechange", function (event) {
+	Vhead.style.marginTop = 100 - m.volume * 100 + "px";
+}, false);
+
+function volumeC(inputB) {
+	if (m.volume >= 0 && m.volume <= 1)
+    m.volume = m.volume + inputB;
+}

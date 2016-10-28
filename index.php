@@ -23,6 +23,15 @@
 				<tr>
 					<td><button id="pButton" class="fa fa-play" onclick="playAudio()"></button></td>
 					<td><img class="mainCover" src="img/cover.jpg" onclick="playAudio()" /></td>
+					<td style="left: -30px;position: relative;">
+					<div id="volume">
+							<div id="Vline">
+								<div id="Vhead"></div>
+							</div>
+						<i onclick="volumeC(+0.1)" class="fa fa-volume-up vlumeControler"></i>
+						<i onclick="volumeC(-0.1)" class="fa fa-volume-down vlumeControler"></i>
+					</div>
+					</td>
 				</tr>
 				<tr>
 				<td>

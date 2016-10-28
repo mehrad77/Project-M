@@ -5,9 +5,9 @@ body {
 .bold {
     font-weight: bold;
 }
-/*****************************************
-******* top section (music info) ******* 
- *****************************************/
+/******************************************************************
+******************** top section (music info) ********************* 
+ ******************************************************************/
  
 .musicInfoSecOut { /** warpper **/
 	background: 
@@ -41,16 +41,13 @@ body {
     margin-left: -25px;
 }
 
-/*****************************************
-*********** Music Player styels ********** 
- *****************************************/
+/********************************************************************************
+****************************** Music Player styels ****************************** 
+ ********************************************************************************/
  .mainCover:hover{
 	 cursor:pointer;
  }
- 
-#timeline{
-	position: relative;
- }
+
 #timeline{
 	width: 300px;
 	height: 5px;
@@ -58,6 +55,7 @@ body {
 	float: left;
 	border-radius: 2px;
 	cursor: pointer;
+	position: relative;
 }
 #playhead{
 	margin-top: 0px;
@@ -77,6 +75,8 @@ body {
 	border-radius: 50%;
 }
 
+
+/* ************** Play button ************** */
 #pButton{
 	height:30px; 
 	width: 30px;
@@ -96,4 +96,40 @@ body {
     text-rendering: auto;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
+}
+
+
+/* ************** Volume Controler styles ************** */
+#Vline{
+	width: 5px;
+	height: 100px;
+	background: rgba(254, 254, 254, 0.80);
+	float: right;
+	border-radius: 1px;
+	cursor: pointer;
+	position: relative;
+	bottom: -105px;
+}
+#Vhead{
+	margin-top: 0px;
+	width: 10px;
+	height: 10px;
+	border-radius: 50%;
+	margin-left:-3px;
+	background: rgba(0, 0, 0, 0.82);
+	cursor:hand;
+	z-index:100;
+	transition:0.3s all;
+}
+.fa-volume-down{
+	bottom: -160px;
+    position: relative;
+    font-size: 1.2em;
+	left: 35px;
+}
+.fa-volume-up{
+	bottom: -100px;
+    position: relative;
+    font-size: 1.2em;
+	left: 35px;
 }

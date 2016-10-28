@@ -61,6 +61,8 @@ function moveplayhead(e) {
 	if (newMargLeft > timelineWidth) {
 		playhead.style.marginLeft = timelineWidth + "px";
 	}
+	m.play();
+	pButton.className = "fa-pause";
 }
 
 // timeUpdate 
@@ -70,7 +72,7 @@ function timeUpdate() {
 	playhead.style.marginLeft = playPercent + "px";
 	if (m.currentTime == duration) {
 		pButton.className = "";
-		pButton.className = "play";
+		pButton.className = "fa-play";
 	}
 }
 

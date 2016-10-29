@@ -67,7 +67,7 @@ body {
 	z-index:100;
 	transition:0.3s all;
 }
-#timeline:hover #playhead{
+.coverDiv:hover #timeline #playhead{
 	margin-top: -5px;
 	width: 15px;
 	height:15px;
@@ -108,28 +108,45 @@ body {
 	border-radius: 1px;
 	cursor: pointer;
 	position: relative;
-	bottom: -105px;
+	bottom: -85px;
 }
 #Vhead{
 	margin-top: 0px;
-	width: 10px;
-	height: 10px;
-	border-radius: 50%;
-	margin-left:-3px;
+	width: 5px;
+	height: 5px;
+	margin-left:2px;
 	background: rgba(0, 0, 0, 0.82);
 	cursor:hand;
 	z-index:100;
+	transition:0.3s all;
+	opacity: 0;
+}
+.coverDiv:hover #Vhead{
+	margin-left:0px;
 	transition:0.3s all;
 }
 .fa-volume-down{
 	bottom: -160px;
     position: relative;
     font-size: 1.2em;
-	left: 35px;
+	left: 15px;
+	cursor:pointer;
+	opacity: 0;
+	color:black;
 }
 .fa-volume-up{
-	bottom: -100px;
+	bottom: -80px;
     position: relative;
     font-size: 1.2em;
-	left: 35px;
+	left: 15px;
+	cursor:pointer;
+	opacity: 0;
+	color:black;
+}
+
+
+/****** opacity effect **/
+.coverDiv:hover  #Vhead,.coverDiv:hover .fa-volume-down,.coverDiv:hover .fa-volume-up {
+	opacity: 1;
+	transition:0.5s opacity;
 }

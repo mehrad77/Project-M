@@ -28,8 +28,8 @@
 							<div id="Vline">
 								<div id="Vhead"></div>
 							</div>
-						<i onclick="volumeC(+0.1)" class="fa fa-volume-up vlumeControler"></i>
-						<i onclick="volumeC(-0.1)" class="fa fa-volume-down vlumeControler"></i>
+						<i onclick="volumeC(+0.15)" class="fa fa-volume-up vlumeControler"></i>
+						<i onclick="volumeC(-0.15)" class="fa fa-volume-down vlumeControler"></i>
 					</div>
 					</td>
 				</tr>

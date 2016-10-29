@@ -1,6 +1,7 @@
 
 /** Player UI things **/
 var m = document.getElementById('musicInst'); // id for audio element
+duration = m.duration;  
 var duration; // Duration of audio clip
 var pButton = document.getElementById('pButton'); // play button
 
@@ -105,7 +106,7 @@ var Vline = document.getElementById('Vline');
 
 //Makes Volumeline clickable
 m.addEventListener("volumechange", function (event) {
-	Vhead.style.marginTop = 100 - m.volume * 100 + "px";
+	Vhead.style.paddingBottom =  m.volume * 100 + "px";
 }, false);
 
 function volumeC(inputB) {

@@ -48,7 +48,7 @@
 			</div>
 		</div>
 		
-		<div class="col-md-8">
+		<div class="col-md-7">
 			<h1 id="musicName">We're faling</h1>
 			<h2 id="albumName">Common elemnt | Hadi Pakzad, Masih Gharavi</h2>
 			<span class="label label-primary"> + </span><span class="label label-primary"> - </span><span class="label label-primary"> + </span><span class="label label-primary"> - </span>
@@ -59,9 +59,28 @@
 		</div>
 	</div>
 </div>
+<div class="row poemsec">
+	<div class="col-md-4">4 4 4 4 4</div>
+	<div class="col-md-8">
+	<div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
+		<div class="panel panel-default">
+			<div class="panel-heading" role="tab" id="headingOne">
+				<h4 class="panel-title">
+					<a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+			  متن ترانه
+			</a>
+				</h4>
+			</div>
+			<div id="collapseOne" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="headingOne">
+				<div class="panel-body">
+					<p id="poem"></p>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
 
-	<p id="poem"></p>
-	<div id="footnotediv "></div>
+
 	<audio id="musicInst" controls="controls" src="media/Were_Falling.mp3">
 	</audio>
 </body>
@@ -79,9 +98,9 @@
 		"content" means the content of a Specific time, verse
 		**/
 		var lyric = [
-		{ "s":"20" , "e":"30", "content":"من دارم می گندم، پس چرا م ی خندم؟" },
-		{ "s":"30" , "e":"39", "content":"من دارم می سوزم، چرا لب می دوزم؟" },
-		{ "s":"40" , "e":"49", "content":"ما داریم می بینیم، پس چرا می شینیم" },
+		{ "s":"20" , "e":"30", "content":"من دارم می‌گندم، پس چرا می‌خندم؟" },
+		{ "s":"30" , "e":"39", "content":"من دارم می‌سوزم، چرا لب می‌دوزم؟" },
+		{ "s":"40" , "e":"49", "content":"ما داریم می‌بینیم، پس چرا می‌شینیم" },
 		{ "s":"50" , "e":"59", "content":"ما از هم نگذشتیم، ولی دیر برگشتیم" },
 		{ "s":"60" , "e":"69", "content":"من از این تاریکی، سخت دلم غمگینه" },
 		{ "s":"70" , "e":"79", "content":"سخت دلم می سوزه، خوابِ فکر سنگینه" },
@@ -102,7 +121,7 @@
 
 		/** Generate poems by JOSM datas, via for loop **/
 		for (i = 0; i < lyric.length; i++) {
-			item = '<span id="verse'+i+'" class="verse nota">' + lyric[i].content + '</span><br>';
+			item = '<span id="verse'+i+'" class="verse nota">' + lyric[i].content + '</span>';
 			document.getElementById("poem").innerHTML = document.getElementById("poem").innerHTML + item;
 		}
 		

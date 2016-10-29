@@ -5,6 +5,33 @@ body {
 .bold {
     font-weight: bold;
 }
+
+@font-face {
+  font-family: Vazir;
+  src: url('Samim.eot');
+  src: url('Samim.eot?#iefix') format('embedded-opentype'),
+       url('Samim.woff') format('woff'),
+       url('Samim.ttf') format('truetype');
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: Vazir;
+  src: url('Vazir-Bold.eot');
+  src: url('Vazir-Bold.eot?#iefix') format('embedded-opentype'),
+       url('Vazir-Bold.woff') format('woff'),
+       url('Vazir-Bold.ttf') format('truetype');
+  font-weight: bold;
+}
+
+@font-face {
+  font-family: Vazir;
+  src: url('Vazir-Light.eot');
+  src: url('Vazir-Light.eot?#iefix') format('embedded-opentype'),
+       url('Vazir-Light.woff') format('woff'),
+       url('Vazir-Light.ttf') format('truetype');
+  font-weight: 300;
+}
 /******************************************************************
 ******************** top section (music info) ********************* 
  ******************************************************************/
@@ -98,7 +125,6 @@ body {
     -moz-osx-font-smoothing: grayscale;
 }
 
-
 /* ************** Volume Controler styles ************** */
 #Vline{
 	width: 5px;
@@ -108,21 +134,22 @@ body {
 	border-radius: 1px;
 	cursor: pointer;
 	position: relative;
-	bottom: -85px;
+	bottom: -100px;
+	transform:rotate(180deg);
 }
 #Vhead{
 	margin-top: 0px;
+	margin-left:0px;
+	padding-bottom: 100px;
 	width: 5px;
 	height: 5px;
-	margin-left:2px;
 	background: rgba(0, 0, 0, 0.82);
-	cursor:hand;
 	z-index:100;
 	transition:0.3s all;
 	opacity: 0;
+
 }
 .coverDiv:hover #Vhead{
-	margin-left:0px;
 	transition:0.3s all;
 }
 .fa-volume-down{
@@ -133,6 +160,7 @@ body {
 	cursor:pointer;
 	opacity: 0;
 	color:black;
+	transition:1s opacity;
 }
 .fa-volume-up{
 	bottom: -80px;
@@ -142,11 +170,29 @@ body {
 	cursor:pointer;
 	opacity: 0;
 	color:black;
+	transition:1s opacity;
 }
 
 
 /****** opacity effect **/
 .coverDiv:hover  #Vhead,.coverDiv:hover .fa-volume-down,.coverDiv:hover .fa-volume-up {
 	opacity: 1;
-	transition:0.5s opacity;
+	transition:1.5s opacity;
 }
+
+/**********************************************************************************************************/
+.poemsec{
+	font-family:Vazir;
+	direction:rtl;
+	text-align:justify;
+}
+#poem{
+	font-size: 1.5em;
+}
+.verse{
+	display:block;
+}
+.verse:nth-child(even){
+	margin-bottom:10px;
+}
+

@@ -14,75 +14,117 @@
 		<link rel="stylesheet" type="text/css" href="css/style.css">
 </head>
 <body>
-
-<div class="row musicInfoSecOut"> <!-- Warpper -->
-	<div class="musicInfoSecIn">
-		<div class="col-md-4 coverDiv">
-			<div>
-			<table>
-				<tr>
-					<td><button id="pButton" class="fa fa-play" onclick="playAudio()"></button></td>
-					<td><img class="mainCover" src="img/cover.jpg" onclick="playAudio()" /></td>
-					<td style="left: -30px;position: relative;">
-					<div id="volume">
-							<div id="Vline">
-								<div id="Vhead"></div>
+<div class="container-fluid">
+	<div class="row musicInfoSecOut"> <!-- Warpper -->
+		<div class="musicInfoSecIn">
+			<div class="container-fluid" style="max-width:1224px;">
+				<div class="col-md-4 coverDiv">
+					<div>
+					<table>
+						<tr>
+							<td><button id="pButton" class="fa fa-play" onclick="playAudio()"></button></td>
+							<td><img class="mainCover" src="img/cover.jpg" onclick="playAudio()" /></td>
+							<td style="left: -30px;position: relative;">
+							<div id="volume">
+									<div id="Vline">
+										<div id="Vhead"></div>
+									</div>
+								<i onclick="volumeC(+0.15)" class="fa fa-volume-up vlumeControler"></i>
+								<i onclick="volumeC(-0.15)" class="fa fa-volume-down vlumeControler"></i>
 							</div>
-						<i onclick="volumeC(+0.15)" class="fa fa-volume-up vlumeControler"></i>
-						<i onclick="volumeC(-0.15)" class="fa fa-volume-down vlumeControler"></i>
+							</td>
+						</tr>
+						<tr>
+						<td>
+						</td>
+							<td>
+								<div id="audioplayer">
+									<div id="timeline">
+										<div id="playhead"></div>
+									</div>
+								</div>
+							</td>
+						</tr>
+					</table>
 					</div>
-					</td>
-				</tr>
-				<tr>
-				<td>
-				</td>
-					<td>
-						<div id="audioplayer">
-							<div id="timeline">
-								<div id="playhead"></div>
-							</div>
-						</div>
-					</td>
-				</tr>
-			</table>
-			</div>
-		</div>
-		
-		<div class="col-md-7">
-			<h1 id="musicName">We're faling</h1>
-			<h2 id="albumName">Common elemnt | Hadi Pakzad, Masih Gharavi</h2>
-			<span class="label label-primary"> + </span><span class="label label-primary"> - </span><span class="label label-primary"> + </span><span class="label label-primary"> - </span>
-			</br>
-			sample: 2004</br>
-			sample: testRock</br>
-			sample: testtest test</br>
-		</div>
-	</div>
-</div>
-<div class="row poemsec">
-	<div class="col-md-4">4 4 4 4 4</div>
-	<div class="col-md-8">
-	<div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
-		<div class="panel panel-default">
-			<div class="panel-heading" role="tab" id="headingOne">
-				<h4 class="panel-title">
-					<a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-			  متن ترانه
-			</a>
-				</h4>
-			</div>
-			<div id="collapseOne" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="headingOne">
-				<div class="panel-body">
-					<p id="poem"></p>
+				</div>
+				
+				<div class="col-md-7">
+					<h1 id="musicName">We're faling</h1>
+					<h2 id="albumName">Common elemnt | Hadi Pakzad, Masih Gharavi</h2>
+					<span class="label label-primary"> + </span><span class="label label-primary"> - </span><span class="label label-primary"> + </span><span class="label label-primary"> - </span>
+					</br>
+					sample: 2004</br>
+					sample: testRock</br>
+					sample: testtest test</br>
 				</div>
 			</div>
 		</div>
 	</div>
-</div>
-
+	<div class="container-fluid" style="max-width:1024px;">
+		
+		<div class="row poemsec">
+			<div class="col-md-5">
+			
+				<div class="panel-group " id="accordion" role="tablist" aria-multiselectable="true">
+					<div class="panel panel-default">
+						<div class="panel-heading" role="tab" id="headingOne">
+							<h4 class="panel-title">
+								<a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+						 آلبوم عنصر مشترک
+						</a>
+							</h4>
+						</div>
+						<div id="collapseOne" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="headingOne">
+							<div class="panel-body">
+								<div class="list-group">
+								
+								  <a href="#" class="list-group-item list-group-item-action active">
+									<h5 class="list-group-item-heading">List group item heading</h5>
+									<p class="list-group-item-text">Donec id elit non mi porta gravida at eget metus. Maecenas sed diam eget risus varius blandit.</p>
+								  </a>
+								  <a href="#" class="list-group-item list-group-item-action">
+									<h5 class="list-group-item-heading">List group item heading</h5>
+									<p class="list-group-item-text">Donec id elit non mi porta gravida at eget metus. Maecenas sed diam eget risus varius blandit.</p>
+								  </a>
+								  <a href="#" class="list-group-item list-group-item-action">
+									<h5 class="list-group-item-heading">List group item heading</h5>
+									<p class="list-group-item-text">Donec id elit non mi porta gravida at eget metus. Maecenas sed diam eget risus varius blandit.</p>
+								  </a>
+								</div>
+								
+							</div>
+						</div>
+					</div>
+				</div>			
+			
+			</div>
+			<div class="col-md-7">
+			
+				<div class="panel-group lyricsBox" id="accordion" role="tablist" aria-multiselectable="true">
+					<div class="panel panel-default">
+						<div class="panel-heading" role="tab" id="headingOne">
+							<h4 class="panel-title">
+								<a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+						  متن ترانه
+						</a>
+							</h4>
+						</div>
+						<div id="collapseOne" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="headingOne">
+							<div class="panel-body">
+								<p id="poem"></p>
+							</div>
+						</div>
+					</div>
+				</div>
+			
+		</div>
+	</div>
 
 	<audio id="musicInst" controls="controls" src="media/Were_Falling.mp3">
 	</audio>
+</div> <!-- Continer end -->
+
 </body>
 
 	<script src="js/jquery.js"></script>
@@ -98,27 +140,26 @@
 		"content" means the content of a Specific time, verse
 		**/
 		var lyric = [
-		{ "s":"20" , "e":"30", "content":"من دارم می‌گندم، پس چرا می‌خندم؟" },
-		{ "s":"30" , "e":"39", "content":"من دارم می‌سوزم، چرا لب می‌دوزم؟" },
-		{ "s":"40" , "e":"49", "content":"ما داریم می‌بینیم، پس چرا می‌شینیم" },
-		{ "s":"50" , "e":"59", "content":"ما از هم نگذشتیم، ولی دیر برگشتیم" },
-		{ "s":"60" , "e":"69", "content":"من از این تاریکی، سخت دلم غمگینه" },
-		{ "s":"70" , "e":"79", "content":"سخت دلم می سوزه، خوابِ فکر سنگینه" },
-		{ "s":"80" , "e":"89", "content":"روی سنگ می خوابیم، و چقدر سنگ سرده" },
-		{ "s":"90" , "e":"99", "content":"تخت ما گرم بود، این تفاوت درده" },
-		{ "s":"100" , "e":"110", "content":"این طرف یک میوه، اون طرف یک مَرده" },
-		{ "s":"110" , "e":"120", "content":"تشنه اما میوه رو، یک خدا له کرده" },
-		{ "s":"120" , "e":"130", "content":"به تنت می چسبم، که بفهمم هستی" },
-		{ "s":"130" , "e":"140", "content":"تو نمی فهمی نه، همه ی شب مستی" },
-		{ "s":"140" , "e":"150", "content":"موی سر تا گردن، بوی عطر حس کردن" },
+		{ "s":"20" , "e":"30", "content":"من دارم مي‌گندم، پس چرا مي‌خندم؟" },
+		{ "s":"30" , "e":"39", "content":"من دارم مي‌سوزم، چرا لب مي‌دوزم؟" },
+		{ "s":"40" , "e":"49", "content":"ما داريم مي‌بينيم، پس چرا مي‌شينيم" },
+		{ "s":"50" , "e":"59", "content":"ما از هم نگذشتيم، ولي دير برگشتيم" },
+		{ "s":"60" , "e":"69", "content":"من از اين تاريکي، سخت دلم غمگينه" },
+		{ "s":"70" , "e":"79", "content":"سخت دلم مي سوزه، خوابِ فکر سنگينه" },
+		{ "s":"80" , "e":"89", "content":"روي سنگ مي خوابيم، و چقدر سنگ سرده" },
+		{ "s":"90" , "e":"99", "content":"تخت ما گرم بود، اين تفاوت درده" },
+		{ "s":"100" , "e":"110", "content":"اين طرف يک ميوه، اون طرف يک مَرده" },
+		{ "s":"110" , "e":"120", "content":"تشنه اما ميوه رو، يک خدا له کرده" },
+		{ "s":"120" , "e":"130", "content":"به تنت مي چسبم، که بفهمم هستي" },
+		{ "s":"130" , "e":"140", "content":"تو نمي فهمي نه، همه ي شب مستي" },
+		{ "s":"140" , "e":"150", "content":"موي سر تا گردن، بوي عطر حس کردن" },
 		{ "s":"150" , "e":"160", "content":"شانه ها تا مچِ دست، کف دست ها سردن" },
-		{ "s":"160" , "e":"170", "content":"ما داریم می میریم، چه پر از هم سیریم " },
-		{ "s":"170" , "e":"180", "content":"ما داریم می افتیم، کاش به هم می گفتیم" },
-		{ "s":"180" , "e":"190", "content":"ما داریم پرت میشیم، سهمِ یک شرط میشیم" },
-		{ "s":"190" , "e":"200", "content":"ما داریم می پوسیم، اما نمی بوسیم" }
+		{ "s":"160" , "e":"170", "content":"ما داريم مي ميريم، چه پر از هم سيريم " },
+		{ "s":"170" , "e":"180", "content":"ما داريم مي افتيم، کاش به هم مي گفتيم" },
+		{ "s":"180" , "e":"190", "content":"ما داريم پرت ميشيم، سهمِ يک شرط ميشيم" },
+		{ "s":"190" , "e":"200", "content":"ما داريم مي پوسيم، اما نمي بوسيم" }
 		];
 		
-
 		/** Generate poems by JOSM datas, via for loop **/
 		for (i = 0; i < lyric.length; i++) {
 			item = '<span id="verse'+i+'" class="verse nota">' + lyric[i].content + '</span>';

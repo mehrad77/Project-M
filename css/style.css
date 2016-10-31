@@ -1,6 +1,10 @@
 body {
 	direction:ltr;
 	margin: auto;
+	background-image:url('lyricCover.jpg');
+	background-attachment:fixed;
+	background-position:center;
+	background-size:cover;
 }
 .bold {
     font-weight: bold;
@@ -58,6 +62,9 @@ body {
 }   
 .coverDiv .mainCover{
 	max-width:300px;
+	-webkit-box-shadow:-5px 8px 4px rgba(0, 0, 0, 0.3), 10px 10px 20px rgba(0, 0, 0, 0.5) inset;
+	-moz-box-shadow:-5px 8px 4px rgba(0, 0, 0, 0.3), 10px 10px 20px rgba(0, 0, 0, 0.5) inset;
+	box-shadow:-5px 8px 4px rgba(0, 0, 0, 0.3), 10px 10px 20px rgba(0, 0, 0, 0.5) inset;
 }
 .label{
 	padding:5px;
@@ -184,7 +191,19 @@ body {
 .poemsec{
 	font-family:Vazir;
 	direction:rtl;
-	text-align:justify;
+	text-align:center;
+}
+.lyricsBox{
+	position: relative;
+    top: -110px;
+}
+.panel-group{
+	-webkit-box-shadow: -3px 3px 10px 0px rgba(0,0,0,0.30);
+	-moz-box-shadow: -3px 3px 10px 0px rgba(0,0,0,0.30);
+	box-shadow: -3px 3px 10px 0px rgba(0,0,0,0.30);
+}
+.panel-default{
+	background-color:rgba(255,255,255,0.95);
 }
 #poem{
 	font-size: 1.5em;

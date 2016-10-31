@@ -15,6 +15,35 @@
 </head>
 <body>
 <div class="container-fluid">
+
+      <!-- Static navbar -->
+      <nav class="navbar navbar-default navbar-full navbar-fixed-top navbar-light bg-faded">
+        <div class="container-fluid">
+          <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+              <span class="sr-only">Toggle navigation</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+          </div>
+          <div id="navbar" class="navbar-collapse collapse">
+            <div class="nav navbar-nav">
+				<audio id="musicInst" controls="controls" src="media/Were_Falling.mp3"></audio>
+            </div>
+            <div class="nav navbar-nav navbar-right">
+			  <li class="active"><a href="#">خانه</a></li>
+              <li><a href="#">موزیک‌ها</a></li>
+              <li><a href="#">داستان‌ها</a></li>
+              <li><a href="#">جملات</a></li>
+              </li>
+            </div>
+          </div><!--/.nav-collapse -->
+        </div><!--/.container-fluid -->
+      </nav>
+
+
+
 	<div class="row musicInfoSecOut"> <!-- Warpper -->
 		<div class="musicInfoSecIn">
 			<div class="container-fluid" style="max-width:1224px;">
@@ -54,7 +83,7 @@
 					<h2 id="albumName">Common elemnt | Hadi Pakzad, Masih Gharavi</h2>
 					<span class="label label-primary"> + </span><span class="label label-primary"> - </span><span class="label label-primary"> + </span><span class="label label-primary"> - </span>
 					</br>
-					sample: 2004</br>
+					s: 2004</br>
 					sample: testRock</br>
 					sample: testtest test</br>
 				</div>
@@ -64,34 +93,44 @@
 	<div class="container-fluid" style="max-width:1024px;">
 		
 		<div class="row poemsec">
-			<div class="col-md-5">
+			<div class="col-md-5  playListBox">
 			
-				<div class="panel-group " id="accordion" role="tablist" aria-multiselectable="true">
+				<div class="panel-group" id="accordion2" role="tablist" aria-multiselectable="true">
 					<div class="panel panel-default">
-						<div class="panel-heading" role="tab" id="headingOne">
+						<div class="panel-heading" role="tab" id="heading2">
 							<h4 class="panel-title">
-								<a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-						 آلبوم عنصر مشترک
+								<a role="button" data-toggle="collapse" data-parent="#accordion2" href="#collapse2" aria-expanded="true" aria-controls="collapse2">
+						 آلبوم گورستان ایستاده 
 						</a>
 							</h4>
 						</div>
-						<div id="collapseOne" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="headingOne">
-							<div class="panel-body">
-								<div class="list-group">
+						<div id="collapse2" class="panel-collapse collapse in" role="tabpane2" aria-labelledby="heading2">
+							<div class="panel-body" style="text-align:right;">
 								
-								  <a href="#" class="list-group-item list-group-item-action active">
-									<h5 class="list-group-item-heading">List group item heading</h5>
-									<p class="list-group-item-text">Donec id elit non mi porta gravida at eget metus. Maecenas sed diam eget risus varius blandit.</p>
-								  </a>
-								  <a href="#" class="list-group-item list-group-item-action">
-									<h5 class="list-group-item-heading">List group item heading</h5>
-									<p class="list-group-item-text">Donec id elit non mi porta gravida at eget metus. Maecenas sed diam eget risus varius blandit.</p>
-								  </a>
-								  <a href="#" class="list-group-item list-group-item-action">
-									<h5 class="list-group-item-heading">List group item heading</h5>
-									<p class="list-group-item-text">Donec id elit non mi porta gravida at eget metus. Maecenas sed diam eget risus varius blandit.</p>
-								  </a>
-								</div>
+									<div class="list-group PlayListSongs">
+									  <a href="#" class="list-group-item">
+										<span class="fa">فرار آخر</span>
+										<span class="en">Final Run</span>
+									  </a>
+									  <a href="#" class="list-group-item">
+										<span class="fa">اُ منفی</span>
+										<span class="en">O Negative</span>
+									  </a>
+									  <a href="#" class="list-group-item active">
+										<span class="fa">شنود</span>
+										<span class="en">Evasdrop</span>
+									  </a>
+									  <a href="#" class="list-group-item">
+										<span class="fa">شعبده</span>
+										<span class="en">Juggle</span>
+									  </a>
+									  <a href="#" class="list-group-item">
+										<span class="fa">اعتصاب</span>
+										<span class="en">Strike</span>
+									  </a>
+									</div>
+								
+								
 								
 							</div>
 						</div>
@@ -121,8 +160,6 @@
 		</div>
 	</div>
 
-	<audio id="musicInst" controls="controls" src="media/Were_Falling.mp3">
-	</audio>
 </div> <!-- Continer end -->
 
 </body>

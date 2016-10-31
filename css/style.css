@@ -9,7 +9,18 @@ body {
 .bold {
     font-weight: bold;
 }
-
+.navbar{
+	height: 35px;
+    min-height: 35px;
+}
+.navbar-nav>li>a {
+    padding-top: 7px;
+    padding-bottom: 7px;
+}
+audio{
+	width:75vw;
+	max-width:99vw;
+}
 @font-face {
   font-family: Vazir;
   src: url('Samim.eot');
@@ -196,6 +207,19 @@ body {
 .lyricsBox{
 	position: relative;
     top: -110px;
+}
+.lyricsBox{
+	position: relative;
+    top: -110px;
+}
+.playListBox{
+	position: relative;
+    top: -20px;
+}
+.PlayListSongs .list-group-item .en{
+	float:left;
+	text-align:left;
+	
 }
 .panel-group{
 	-webkit-box-shadow: -3px 3px 10px 0px rgba(0,0,0,0.30);

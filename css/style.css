@@ -1,3 +1,5 @@
+html {
+}
 body {
 	direction:ltr;
 	margin: auto;
@@ -5,6 +7,7 @@ body {
 	background-attachment:fixed;
 	background-position:center;
 	background-size:cover;
+	min-height: 100%;
 }
 .bold {
     font-weight: bold;
@@ -291,7 +294,78 @@ audio{
 .footernote{
 	text-align:center;
 	margin:0px auto;
+	padding:2px;
 }
 footer{
 	background-color:#fafafa;
+    width:100%;
 }
+html, body {
+	height: 100%;
+}
+.footerCol{
+	text-align:center;
+}
+.socialmob li{
+	display:inline;
+}
+.btn-custom-one{
+	margin:5px;
+}
+
+
+/************************************************************************
+*************************************************************************
+*************************************************************************
+***************************** Mobile Styles *****************************
+*************************************************************************
+*************************************************************************
+************************************************************************/
+.mainCoverMob{
+	display:none;
+}
+@media only screen and (max-width: 700px) {
+	
+	body{
+		
+	}
+	audio{
+		width: 100%;
+	}
+	.navbar-right{
+		display:none;
+	}
+	.MusicPlayer{
+		display:none;
+	}
+	.mainCoverMob{
+	display:block;
+	width:100%;
+	z-index:-10;
+	background-attachment:fixed;
+	background-repeat: no-repeat;
+	background-size: contain;
+	background-image:url('../img/cover.jpg');
+	}
+	.lyricsBox {
+    position: relative;
+    top: -30px;
+	}
+	.panel{
+	width: 96vw;
+    position: relative;
+    right: -30px;
+    border-radius: 0px;
+	}
+	.musicInfoSecOut {
+	background-color: #8e0000;
+	background-size: 100% 10em, 100% calc(100% - 10em);
+	}
+	
+	
+	
+	
+	
+}
+
+

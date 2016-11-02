@@ -10,8 +10,15 @@
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="stylesheet" href="css/font-awesome.min.css">
+	<!-- <link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/> -->
 	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
-		<link rel="stylesheet" type="text/css" href="css/style.css">
+    <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+
+	
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	
+	
 </head>
 <body>
 <!-- Return to Top -->
@@ -32,14 +39,15 @@
         </div><!--/.container-fluid -->
     </nav>
 
+<div id="mobcover" class="mainCoverMob" onclick="playAudio()">
 
-
+</div>
 	<div class="musicInfoSecOut"> <!-- Warpper -->
 		<div class="musicInfoSecIn">
 			<div class="container-fluid" style="max-width:1224px;">
 				<div class="col-md-4 coverDiv">
 					<div>
-					<table>
+					<table class="MusicPlayer">
 						<tr>
 							<td><button id="pButton" class="fa fa-play" onclick="playAudio()"></button></td>
 							<td><img class="mainCover" src="img/cover.jpg" onclick="playAudio()" /></td>
@@ -99,98 +107,110 @@
 			</div> <!-- Continer end -->
 		</div>
 	</div>
-	<div class="container-fluid" style="max-width:1024px;">
-		<div class="row poemsec">
+	<div class="container-fluid" style="max-width:1024px;min-height:100%;">
+		<div class="poemsec" style="">
 		
-		<div class="col-md-7 col-md-push-5">
-				<div class="panel-group lyricsBox" id="accordion" role="tablist" aria-multiselectable="true">
-					<div class="panel panel-default">
-						<div class="panel-heading" role="tab" id="headingOne">
-							<h4 class="panel-title">
-								<a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-						  متن ترانه
-						</a>
-							</h4>
-						</div>
-						<div id="collapseOne" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="headingOne">
-							<div class="panel-body">
-								<p id="poem"></p>
+			<div class="col-md-7 col-md-push-5">
+					<div class="panel-group lyricsBox" id="accordion" role="tablist" aria-multiselectable="true">
+						<div class="panel panel-default">
+							<div class="panel-heading" role="tab" id="headingOne">
+								<h4 class="panel-title">
+									<a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+							  متن ترانه
+							</a>
+								</h4>
+							</div>
+							<div id="collapseOne" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="headingOne">
+								<div class="panel-body">
+									<p id="poem"></p>
+								</div>
 							</div>
 						</div>
 					</div>
 				</div>
-			</div>
-			
-			
-			<div class="col-md-5 col-md-pull-7 playListBox">
-				<div class="panel-group" id="accordion2" role="tablist" aria-multiselectable="true">
-					<div class="panel panel-default">
-						<div class="panel-heading" role="tab" id="heading2">
-							<h4 class="panel-title">
-								<a role="button" data-toggle="collapse" data-parent="#accordion2" href="#collapse2" aria-expanded="true" aria-controls="collapse2">آلبوم گورستان ایستاده </a>
-							</h4>
-						</div>
-						<div id="collapse2" class="panel-collapse collapse in" role="tabpane2" aria-labelledby="heading2">
-							<div class="panel-body" style="text-align:right;padding: 0px;">
-								
-									<div class="list-group PlayListSongs">
-									  <a href="#" class="list-group-item">
-										<span class="fa">فرار آخر</span><span class="time">05:25</span>
-										<span class="en">Final Run</span>
+				
+				
+				<div class="col-md-5 col-md-pull-7 playListBox">
+					<div class="panel-group" id="accordion2" role="tablist" aria-multiselectable="true">
+						<div class="panel panel-default">
+							<div class="panel-heading" role="tab" id="heading2">
+								<h4 class="panel-title">
+									<a role="button" data-toggle="collapse" data-parent="#accordion2" href="#collapse2" aria-expanded="true" aria-controls="collapse2">آلبوم گورستان ایستاده </a>
+								</h4>
+							</div>
+							<div id="collapse2" class="panel-collapse collapse in" role="tabpane2" aria-labelledby="heading2">
+								<div class="panel-body" style="text-align:right;padding: 0px;">
+									
+										<div class="list-group PlayListSongs">
+										  <a href="#" class="list-group-item">
+											<span class="fa">فرار آخر</span><span class="time">05:25</span>
+											<span class="en">Final Run</span>
 
-									  </a>
-									  <a href="#" class="list-group-item">
-										<span class="fa">اُ منفی</span><span class="time">03:43</span>
-										<span class="en">O Negative</span>
-										
-									  </a>
-									  <a href="#" class="list-group-item active">
-										<span class="fa">شنود</span><span class="time">02:22</span>
-										<span class="en">Evasdrop</span>
-										
-										
-									  </a>
-									  <a href="#" class="list-group-item">
-										<span class="fa">شعبده</span><span class="time">04:14</span>
-										<span class="en">Juggle</span>
-										
-									  </a>
-									  <a href="#" class="list-group-item">
-										<span class="fa">اعتصاب</span><span class="time">03:48</span>
-										<span class="en">Strike</span>
-										
-									  </a>
-									</div>
+										  </a>
+										  <a href="#" class="list-group-item">
+											<span class="fa">اُ منفی</span><span class="time">03:43</span>
+											<span class="en">O Negative</span>
+											
+										  </a>
+										  <a href="#" class="list-group-item active">
+											<span class="fa">شنود</span><span class="time">02:22</span>
+											<span class="en">Evasdrop</span>
+											
+											
+										  </a>
+										  <a href="#" class="list-group-item">
+											<span class="fa">شعبده</span><span class="time">04:14</span>
+											<span class="en">Juggle</span>
+											
+										  </a>
+										  <a href="#" class="list-group-item">
+											<span class="fa">اعتصاب</span><span class="time">03:48</span>
+											<span class="en">Strike</span>
+											
+										  </a>
+										</div>
+								</div>
 							</div>
 						</div>
-					</div>
-				</div>			
-			</div>
+					</div>			
+				</div>
+				
+				
 			
-			
-		
-		</div>	
-</div> <!-- Continer end -->
+			</div>	
+	</div> <!-- Continer end -->
 	
 		<!-- Footer Section -->
 		<footer>
 			<div class="container-fluid" style="max-width:1024px;">
-				<div class="row">
-					<div class="col-md-4">
-					sss
+				<div >
+					<div style="text-align:left;" class="col-md-4 footerCol">
+					<ul class="socialmob">
+						<li><a href="#" class="btn btn-custom-one tw"><i class="fa fa-twitter"></i></a></li>
+						<li><a href="#" class="btn btn-custom-one sc"><i class="fa fa-soundcloud "></i></a></li>
+						<li><a href="#" class="btn btn-custom-one ig"><i class="fa fa-instagram "></i></a></li>
+						<li><a href="#" class="btn btn-custom-one fb"><i class="fa fa-facebook"></i></a></li>
+						<li><a href="#" class="btn btn-custom-one tg"><i class="fa fa-paper-plane "></i></a></li>
+					</ul>
 					</div>
 					
-					<div class="col-md-4">
-					sss
+					<div class="col-md-4 footerCol"  style="padding-top:10px;text-align:center">
+						<small>Copyright ©2016 by HadiPakzad.net</small>
+						<br/><small> Designed and Developed with <a href="http://mehrad77.ir/projects/hadipakzad" alt="hadipakzad website designe" class="glyphicon glyphicon-heart" aria-hidden="true"></a> by <a href="http://mehrad77.ir" alt="Mehrad77 Web developer">Mehrad</a>. </small><br/>
 					</div>
 					
-					<div class="col-md-4">
-					sss
+					<div class="col-md-4 footerCol" style="padding-top:10px;">
+					<div class="input-group">
+					  <input type="text" class="form-control" placeholder="Search for...">
+					  <span class="input-group-btn">
+						<button class="btn btn-default" type="button"><span class="glyphicon glyphicon-search" aria-hidden="true"></span></button>
+					  </span>
+					</div><!-- /input-group -->
 					</div>
 				</div>
-				<div class="col-md-12 footernote">
-				Designed and Developed with <a href="http://mehrad77.ir/projects/hadipakzad" alt="hadipakzad website designe" class="glyphicon glyphicon-heart" aria-hidden="true"></a> by <a href="http://mehrad77.ir" alt="Mehrad77 Web developer">Mehrad</a>.
-				</div>
+				<!-- <div class="col-md-12 footernote">
+				
+				</div> -->
 			</div> <!-- Continer end -->
 		</footer>
 		
@@ -199,7 +219,8 @@
 </body>
 
 	<script src="js/jquery.js"></script>
-	<script src="js/popcorn-complete.min.js "></script>
+    <!--<script type="text/javascript" src="js/materialize.min.js"></script>
+	<script src="js/popcorn-complete.min.js "></script> -->
 	<script src="js/bootstrap.min.js"></script>
 	<script src="js/custom.js"></script>
 	<script>
@@ -277,6 +298,15 @@
 			?>
 		}, false );
 	});
+	
+	
+	
+var mobcover = document.getElementById("mobcover");  // Get the <a> element with id="myAnchor"
+var att = document.createAttribute("style");        // Create a "href" attribute
+att.value = "height:" + document.getElementById('mobcover').clientWidth + "px";            // Set the value of the href attribute
+mobcover.setAttributeNode(att); 
+console.log("done");
+
 	</script>
 
 		

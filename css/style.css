@@ -9,6 +9,9 @@ body {
 .bold {
     font-weight: bold;
 }
+#navbar{
+	display:none;
+}
 .navbar{
 	height: 35px;
     min-height: 35px;
@@ -59,8 +62,8 @@ audio{
 	padding-bottom: 5em;
 	background-size: 100% 10em, 100% calc(100% - 10em);
 }
-.musicInfoSecIn{
-	margin-top:30px;
+.musicInfoSecIn {
+    padding-top: 30px;
 }
 #musicName{
 	display: inline;
@@ -218,8 +221,15 @@ audio{
 }
 .PlayListSongs .list-group-item .en{
 	float:left;
+	position:relative;
 	text-align:left;
-	
+}
+.PlayListSongs .list-group-item .time{
+	float:left;
+	text-align:left;
+	position:relative;
+    left: 0px;
+	padding-right:10px;
 }
 .panel-group{
 	-webkit-box-shadow: -3px 3px 10px 0px rgba(0,0,0,0.30);
@@ -231,6 +241,7 @@ audio{
 }
 #poem{
 	font-size: 1.5em;
+
 }
 .verse{
 	display:block;
@@ -238,4 +249,49 @@ audio{
 .verse:nth-child(even){
 	margin-bottom:10px;
 }
+/************************************************/
+#return-to-top {
+    position: fixed;
+    bottom: 15px;
+    right: 15px;
+    background: rgba(256, 256,256, 0.6);
+    width: 45px;
+    height: 45px;
+    display: block;
+    text-decoration: none;
+    border-radius: 50%;
+    transition: all 0.3s ease;
+}
+#return-to-top i {
+    color: #000;
+    margin: 0;
+    position: relative;
+    left: 14px;
+    top: 13px;
+    font-size: 19px;
+    transition: all 0.3s ease;
+}
+#return-to-top:hover {
+    background: rgba(256, 256,256, 1);
+	
+}
+#return-to-top:hover i {
+    color: #000;
+    top: 5px;
+}
 
+/**************************************************************/
+
+.btn-xs{
+	margin-right: 4px;
+}
+
+
+/************************** Footer *****************************/
+.footernote{
+	text-align:center;
+	margin:0px auto;
+}
+footer{
+	background-color:#fafafa;
+}

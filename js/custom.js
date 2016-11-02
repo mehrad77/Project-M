@@ -113,3 +113,31 @@ function volumeC(inputB) {
 	if (m.volume >= 0 && m.volume <= 1)
     m.volume = m.volume + inputB;
 }
+
+/**************************************************
+****************** Scroll to Top ******************
+**************************************************/
+
+$(window).scroll(function() {
+    if ($(this).scrollTop() >= 100) {
+        $('#navbar').fadeIn(200);
+    } else {
+        $('#navbar').fadeOut(200);
+    }
+});
+$(window).scroll(function() {
+    if ($(this).scrollTop() >= 150) {   
+        $('#return-to-top').fadeIn(200); 
+    } else {
+        $('#return-to-top').fadeOut(200);  
+    }
+});
+$('#return-to-top').click(function() {      
+    $('body,html').animate({
+        scrollTop : 0                       
+    }, 500);
+});
+
+
+
+

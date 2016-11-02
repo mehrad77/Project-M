@@ -14,37 +14,27 @@
 		<link rel="stylesheet" type="text/css" href="css/style.css">
 </head>
 <body>
-<div class="container-fluid">
+<!-- Return to Top -->
+<a href="javascript:" id="return-to-top"><i class="fa fa-arrow-up"></i></a>
+
 
       <!-- Static navbar -->
-      <nav class="navbar navbar-default navbar-full navbar-fixed-top navbar-light bg-faded">
+    <nav id="navbar" class="navbar navbar-default navbar-full navbar-fixed-top navbar-light bg-faded">
         <div class="container-fluid">
-          <div class="navbar-header">
-            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
-              <span class="sr-only">Toggle navigation</span>
-              <span class="icon-bar"></span>
-              <span class="icon-bar"></span>
-              <span class="icon-bar"></span>
-            </button>
-          </div>
-          <div id="navbar" class="navbar-collapse collapse">
-            <div class="nav navbar-nav">
+            <div class="nav navbar-nav navbar-left">
 				<audio id="musicInst" controls="controls" src="media/Were_Falling.mp3"></audio>
             </div>
-            <div class="nav navbar-nav navbar-right">
-			  <li class="active"><a href="#">خانه</a></li>
-              <li><a href="#">موزیک‌ها</a></li>
+            <div class="nav navbar-nav navbar-right hidden-sm hidden-xs">
               <li><a href="#">داستان‌ها</a></li>
-              <li><a href="#">جملات</a></li>
-              </li>
-            </div>
-          </div><!--/.nav-collapse -->
+			  <li><a href="#">موزیک‌ها</a></li>
+			  <li class="active"><a href="#">خانه</a></li>
+			</div><!--/.nav-collapse -->
         </div><!--/.container-fluid -->
-      </nav>
+    </nav>
 
 
 
-	<div class="row musicInfoSecOut"> <!-- Warpper -->
+	<div class="musicInfoSecOut"> <!-- Warpper -->
 		<div class="musicInfoSecIn">
 			<div class="container-fluid" style="max-width:1224px;">
 				<div class="col-md-4 coverDiv">
@@ -81,65 +71,38 @@
 				<div class="col-md-7">
 					<h1 id="musicName">We're faling</h1>
 					<h2 id="albumName">Common elemnt | Hadi Pakzad, Masih Gharavi</h2>
-					<span class="label label-primary"> + </span><span class="label label-primary"> - </span><span class="label label-primary"> + </span><span class="label label-primary"> - </span>
+					<button type="button" class="btn btn-default btn-xs" data-toggle="tooltip" data-placement="bottom" title="Downlaod this song">
+					<span class="glyphicon glyphicon-cloud-download" aria-hidden="true"></span></button>
+					
+					<button type="button" class="btn btn-default btn-xs"  data-toggle="tooltip" data-placement="bottom" title="Add to Wishlist">
+					<span class="glyphicon glyphicon-heart" aria-hidden="true"></span></button>
+					
+					<button type="button" class="btn btn-default btn-xs" data-toggle="tooltip" data-placement="bottom" title="Watch video clip">
+					<span class="glyphicon glyphicon-film" aria-hidden="true"></span></button>
+					
+					<button type="button" class="btn btn-default btn-xs" data-toggle="tooltip" data-placement="bottom" title="Show QrCode of song">
+					<span class="glyphicon glyphicon-qrcode" aria-hidden="true"></span></button>
+					
+					<button type="button" class="btn btn-default btn-xs" data-toggle="tooltip" data-placement="bottom" title="Share this song">
+					<span class="glyphicon glyphicon-share-alt" aria-hidden="true"></span></button>
+					
+					<button type="button" class="btn btn-default btn-xs"  data-toggle="tooltip" data-placement="bottom" title="Download it on Telegram">
+					<span class="glyphicon glyphicon-send" aria-hidden="true"></span></button>
+					
+					
+					
 					</br>
-					s: 2004</br>
-					sample: testRock</br>
-					sample: testtest test</br>
+					Album: Vertical Cemetry</br>
+					Year: 2014</br>
+					Genre: Post Rock</br>
 				</div>
-			</div>
+			</div> <!-- Continer end -->
 		</div>
 	</div>
 	<div class="container-fluid" style="max-width:1024px;">
-		
 		<div class="row poemsec">
-			<div class="col-md-5  playListBox">
-			
-				<div class="panel-group" id="accordion2" role="tablist" aria-multiselectable="true">
-					<div class="panel panel-default">
-						<div class="panel-heading" role="tab" id="heading2">
-							<h4 class="panel-title">
-								<a role="button" data-toggle="collapse" data-parent="#accordion2" href="#collapse2" aria-expanded="true" aria-controls="collapse2">
-						 آلبوم گورستان ایستاده 
-						</a>
-							</h4>
-						</div>
-						<div id="collapse2" class="panel-collapse collapse in" role="tabpane2" aria-labelledby="heading2">
-							<div class="panel-body" style="text-align:right;">
-								
-									<div class="list-group PlayListSongs">
-									  <a href="#" class="list-group-item">
-										<span class="fa">فرار آخر</span>
-										<span class="en">Final Run</span>
-									  </a>
-									  <a href="#" class="list-group-item">
-										<span class="fa">اُ منفی</span>
-										<span class="en">O Negative</span>
-									  </a>
-									  <a href="#" class="list-group-item active">
-										<span class="fa">شنود</span>
-										<span class="en">Evasdrop</span>
-									  </a>
-									  <a href="#" class="list-group-item">
-										<span class="fa">شعبده</span>
-										<span class="en">Juggle</span>
-									  </a>
-									  <a href="#" class="list-group-item">
-										<span class="fa">اعتصاب</span>
-										<span class="en">Strike</span>
-									  </a>
-									</div>
-								
-								
-								
-							</div>
-						</div>
-					</div>
-				</div>			
-			
-			</div>
-			<div class="col-md-7">
-			
+		
+		<div class="col-md-7 col-md-push-5">
 				<div class="panel-group lyricsBox" id="accordion" role="tablist" aria-multiselectable="true">
 					<div class="panel panel-default">
 						<div class="panel-heading" role="tab" id="headingOne">
@@ -156,11 +119,82 @@
 						</div>
 					</div>
 				</div>
+			</div>
 			
-		</div>
-	</div>
+			
+			<div class="col-md-5 col-md-pull-7 playListBox">
+				<div class="panel-group" id="accordion2" role="tablist" aria-multiselectable="true">
+					<div class="panel panel-default">
+						<div class="panel-heading" role="tab" id="heading2">
+							<h4 class="panel-title">
+								<a role="button" data-toggle="collapse" data-parent="#accordion2" href="#collapse2" aria-expanded="true" aria-controls="collapse2">آلبوم گورستان ایستاده </a>
+							</h4>
+						</div>
+						<div id="collapse2" class="panel-collapse collapse in" role="tabpane2" aria-labelledby="heading2">
+							<div class="panel-body" style="text-align:right;padding: 0px;">
+								
+									<div class="list-group PlayListSongs">
+									  <a href="#" class="list-group-item">
+										<span class="fa">فرار آخر</span><span class="time">05:25</span>
+										<span class="en">Final Run</span>
 
+									  </a>
+									  <a href="#" class="list-group-item">
+										<span class="fa">اُ منفی</span><span class="time">03:43</span>
+										<span class="en">O Negative</span>
+										
+									  </a>
+									  <a href="#" class="list-group-item active">
+										<span class="fa">شنود</span><span class="time">02:22</span>
+										<span class="en">Evasdrop</span>
+										
+										
+									  </a>
+									  <a href="#" class="list-group-item">
+										<span class="fa">شعبده</span><span class="time">04:14</span>
+										<span class="en">Juggle</span>
+										
+									  </a>
+									  <a href="#" class="list-group-item">
+										<span class="fa">اعتصاب</span><span class="time">03:48</span>
+										<span class="en">Strike</span>
+										
+									  </a>
+									</div>
+							</div>
+						</div>
+					</div>
+				</div>			
+			</div>
+			
+			
+		
+		</div>	
 </div> <!-- Continer end -->
+	
+		<!-- Footer Section -->
+		<footer>
+			<div class="container-fluid" style="max-width:1024px;">
+				<div class="row">
+					<div class="col-md-4">
+					sss
+					</div>
+					
+					<div class="col-md-4">
+					sss
+					</div>
+					
+					<div class="col-md-4">
+					sss
+					</div>
+				</div>
+				<div class="col-md-12 footernote">
+				Designed and Developed with <a href="http://mehrad77.ir/projects/hadipakzad" alt="hadipakzad website designe" class="glyphicon glyphicon-heart" aria-hidden="true"></a> by <a href="http://mehrad77.ir" alt="Mehrad77 Web developer">Mehrad</a>.
+				</div>
+			</div> <!-- Continer end -->
+		</footer>
+		
+
 
 </body>
 
@@ -170,6 +204,7 @@
 	<script src="js/custom.js"></script>
 	<script>
 	document.addEventListener('DOMContentLoaded', function () { /** wait for DOM to load **/
+	  $('[data-toggle="tooltip"]').tooltip()
 	
 		/** setting up lyric JSON array in a tamplate
 		"s" means "Start second"

@@ -324,7 +324,13 @@ html, body {
 .mainCoverMob{
 	display:none;
 }
-@media only screen and (max-width: 700px) {
+.tabcover{
+	display:none;
+}
+.tabcoverdiv{
+	display:none;
+}
+@media only screen and (max-width: 720px) {
 	
 	body{
 		
@@ -361,9 +367,42 @@ html, body {
 	background-color: #8e0000;
 	background-size: 100% 10em, 100% calc(100% - 10em);
 	}
+}
+@media only screen and (min-width:721px) and (max-width: 991px) {
 	
+	body{
+	}
+	audio{
+		width: 100%;
+	}
+	.navbar-right{
+		display:none;
+	}
+	.MusicPlayer{
+		display:none;
+	}
+	.lyricsBox {
+		position: relative;
+		top: -20px;
+	}
+	.panel{
+		border-radius: 0px;
+	}
+	.musicInfoSecOut {
+		background-color: #8e0000;
+		background-size: 100% 10em, 100% calc(100% - 10em);
+	}
+	#tabcover{
+		display:inline;
+		width:100%;
+	}
+	.tabcoverdiv{
+		display:inline;
+	}
 	
-	
+	.navbar-left {
+		float: none !important;
+	}
 	
 	
 }

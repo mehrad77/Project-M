@@ -40,7 +40,6 @@
     </nav>
 
 <div id="mobcover" class="mainCoverMob" onclick="playAudio()">
-
 </div>
 	<div class="musicInfoSecOut"> <!-- Warpper -->
 		<div class="musicInfoSecIn">
@@ -76,7 +75,7 @@
 					</div>
 				</div>
 				
-				<div class="col-md-7">
+				<div class="col-md-7 col-xs-8 col-sm-7">
 					<h1 id="musicName">We're faling</h1>
 					<h2 id="albumName">Common elemnt | Hadi Pakzad, Masih Gharavi</h2>
 					<button type="button" class="btn btn-default btn-xs" data-toggle="tooltip" data-placement="bottom" title="Downlaod this song">
@@ -104,13 +103,17 @@
 					Year: 2014</br>
 					Genre: Post Rock</br>
 				</div>
+				
+				<div class="col-xs-4 col-sm-5 tabcoverdiv">
+					<img id="tabcover" class="mainCoverTab" src="img/cover.jpg" onclick="playAudio()" />
+				</div>
 			</div> <!-- Continer end -->
 		</div>
 	</div>
 	<div class="container-fluid" style="max-width:1024px;min-height:100%;">
 		<div class="poemsec" style="">
 		
-			<div class="col-md-7 col-md-push-5">
+			<div class="col-md-7 col-md-push-5 col-sm-8">
 					<div class="panel-group lyricsBox" id="accordion" role="tablist" aria-multiselectable="true">
 						<div class="panel panel-default">
 							<div class="panel-heading" role="tab" id="headingOne">
@@ -130,7 +133,7 @@
 				</div>
 				
 				
-				<div class="col-md-5 col-md-pull-7 playListBox">
+				<div class="col-md-5 col-md-pull-7 col-sm-4 playListBox">
 					<div class="panel-group" id="accordion2" role="tablist" aria-multiselectable="true">
 						<div class="panel panel-default">
 							<div class="panel-heading" role="tab" id="heading2">
@@ -309,7 +312,5 @@ console.log("done");
 
 	</script>
 
-		
-		
-	
+
 </html>

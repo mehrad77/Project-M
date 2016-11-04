@@ -6,7 +6,7 @@
 	<meta http-equiv="expires" content="0" />
 	<meta http-equiv="expires" content="Tue, 01 Jan 1980 1:00:00 GMT" />
 	<meta http-equiv="pragma" content="no-cache" />
-	<title>Hadi pakzad</title>
+	<title>Hadi pakzad</title> 
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="stylesheet" href="css/font-awesome.min.css">
@@ -76,7 +76,7 @@
 				</div>
 				
 				<div class="col-md-7 col-xs-8 col-sm-7">
-					<h1 id="musicName">We're faling</h1>
+					<h1 id="musicName"><span class="red">We're faling</span></h1>
 					<h2 id="albumName">Common elemnt | Hadi Pakzad, Masih Gharavi</h2>
 					<button type="button" class="btn btn-default btn-xs" data-toggle="tooltip" data-placement="bottom" title="Downlaod this song">
 					<span class="glyphicon glyphicon-cloud-download" aria-hidden="true"></span></button>
@@ -99,9 +99,9 @@
 					
 					
 					</br>
-					Album: Vertical Cemetry</br>
-					Year: 2014</br>
-					Genre: Post Rock</br>
+					<span class="red">Album:</span> Vertical Cemetry</br>
+					<span class="red">Year:</span> 2014</br>
+					<span class="red">Genre:</span> Post Rock</br>
 				</div>
 				
 				<div class="col-xs-4 col-sm-5 tabcoverdiv">
@@ -119,7 +119,7 @@
 							<div class="panel-heading" role="tab" id="headingOne">
 								<h4 class="panel-title">
 									<a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-							  متن ترانه
+							  Lyric
 							</a>
 								</h4>
 							</div>
@@ -138,7 +138,7 @@
 						<div class="panel panel-default">
 							<div class="panel-heading" role="tab" id="heading2">
 								<h4 class="panel-title">
-									<a role="button" data-toggle="collapse" data-parent="#accordion2" href="#collapse2" aria-expanded="true" aria-controls="collapse2">آلبوم گورستان ایستاده </a>
+									<a role="button" data-toggle="collapse" data-parent="#accordion2" href="#collapse2" aria-expanded="true" aria-controls="collapse2">Vertical cemetry</a>
 								</h4>
 							</div>
 							<div id="collapse2" class="panel-collapse collapse in" role="tabpane2" aria-labelledby="heading2">

@@ -15,6 +15,16 @@ border-bottom: 1px solid;
     background-color: rgba(0,0,0,0.5);
     margin-bottom: 30px;
 }
+.card2{
+    width:185px;
+}
+.writingsCol{
+    float:left;
+    position: relative;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px;
+}
 .card-block{
     padding: 10px;
 }

@@ -174,7 +174,7 @@
 				</div>
 			</div>
 		</div>
-		
+
 	</div>
 </div>
 
@@ -185,10 +185,10 @@
 
 <div style="margin-top:50px;">
 	<hr class="mainHR"/><h2 class="afterHR">Writings</h2>
-	<div class="continer" style="max-width:1024px;">
+	<div class="continer"  style="max-width:2048px;">
 
-		<div class="col-md-3 col-sm-4 col-xs-6">
-			<div class="card">
+		<div class="writingsCol">
+			<div class="card card2">
 				<img class="card-img-top" src="images/LUG.gif" alt="Card image cap">
 				<div class="card-block">
 					<h3 class="card-title">Living Underground</h3>
@@ -198,8 +198,8 @@
 			</div>
 		</div>
 
-		<div class="col-md-3 col-sm-4 col-xs-6">
-			<div class="card">
+		<div class="writingsCol">
+			<div class="card card2">
 				<img class="card-img-top" src="images/LUG.gif" alt="Card image cap">
 				<div class="card-block">
 					<h3 class="card-title">Living Underground</h3>
@@ -209,8 +209,8 @@
 			</div>
 		</div>
 
-		<div class="col-md-3 col-sm-4 col-xs-6">
-			<div class="card">
+		<div class="writingsCol">
+			<div class="card card2">
 				<img class="card-img-top" src="images/LUG.gif" alt="Card image cap">
 				<div class="card-block">
 					<h3 class="card-title">Living Underground</h3>
@@ -220,8 +220,8 @@
 			</div>
 		</div>
 
-		<div class="col-md-3 col-sm-4 col-xs-6">
-			<div class="card">
+		<div class="writingsCol">
+			<div class="card card2">
 				<img class="card-img-top" src="images/LUG.gif" alt="Card image cap">
 				<div class="card-block">
 					<h3 class="card-title">Living Underground</h3>
@@ -231,8 +231,8 @@
 			</div>
 		</div>
 
-		<div class="col-md-3 col-sm-4 col-xs-6">
-			<div class="card">
+		<div class="writingsCol">
+			<div class="card card2">
 				<img class="card-img-top" src="images/LUG.gif" alt="Card image cap">
 				<div class="card-block">
 					<h3 class="card-title">Living Underground</h3>
@@ -242,8 +242,8 @@
 			</div>
 		</div>
 
-		<div class="col-md-3 col-sm-4 col-xs-6">
-			<div class="card">
+		<div class="writingsCol">
+			<div class="card card2">
 				<img class="card-img-top" src="images/LUG.gif" alt="Card image cap">
 				<div class="card-block">
 					<h3 class="card-title">Living Underground</h3>
@@ -253,8 +253,8 @@
 			</div>
 		</div>
 
-		<div class="col-md-3 col-sm-4 col-xs-6">
-			<div class="card">
+		<div class="writingsCol">
+			<div class="card card2">
 				<img class="card-img-top" src="images/LUG.gif" alt="Card image cap">
 				<div class="card-block">
 					<h3 class="card-title">Living Underground</h3>
@@ -264,8 +264,118 @@
 			</div>
 		</div>
 
-		<div class="col-md-3 col-sm-4 col-xs-6">
-			<div class="card">
+		<div class="writingsCol">
+			<div class="card card2">
+				<img class="card-img-top" src="images/LUG.gif" alt="Card image cap">
+				<div class="card-block">
+					<h3 class="card-title">Living Underground</h3>
+					<p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+					<p class="card-text"><small class="text-muted">2008</small></p>
+				</div>
+			</div>
+		</div>
+
+
+		<div class="writingsCol">
+			<div class="card card2">
+				<img class="card-img-top" src="images/LUG.gif" alt="Card image cap">
+				<div class="card-block">
+					<h3 class="card-title">Living Underground</h3>
+					<p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+					<p class="card-text"><small class="text-muted">2008</small></p>
+				</div>
+			</div>
+		</div>
+
+		<div class="writingsCol">
+			<div class="card card2">
+				<img class="card-img-top" src="images/LUG.gif" alt="Card image cap">
+				<div class="card-block">
+					<h3 class="card-title">Living Underground</h3>
+					<p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+					<p class="card-text"><small class="text-muted">2008</small></p>
+				</div>
+			</div>
+		</div>
+
+		<div class="writingsCol">
+			<div class="card card2">
+				<img class="card-img-top" src="images/LUG.gif" alt="Card image cap">
+				<div class="card-block">
+					<h3 class="card-title">Living Underground</h3>
+					<p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+					<p class="card-text"><small class="text-muted">2008</small></p>
+				</div>
+			</div>
+		</div>
+
+		<div class="writingsCol">
+			<div class="card card2">
+				<img class="card-img-top" src="images/LUG.gif" alt="Card image cap">
+				<div class="card-block">
+					<h3 class="card-title">Living Underground</h3>
+					<p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+					<p class="card-text"><small class="text-muted">2008</small></p>
+				</div>
+			</div>
+		</div>
+
+		<div class="writingsCol">
+			<div class="card card2">
+				<img class="card-img-top" src="images/LUG.gif" alt="Card image cap">
+				<div class="card-block">
+					<h3 class="card-title">Living Underground</h3>
+					<p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+					<p class="card-text"><small class="text-muted">2008</small></p>
+				</div>
+			</div>
+		</div>
+
+		<div class="writingsCol">
+			<div class="card card2">
+				<img class="card-img-top" src="images/LUG.gif" alt="Card image cap">
+				<div class="card-block">
+					<h3 class="card-title">Living Underground</h3>
+					<p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+					<p class="card-text"><small class="text-muted">2008</small></p>
+				</div>
+			</div>
+		</div>
+
+		<div class="writingsCol">
+			<div class="card card2">
+				<img class="card-img-top" src="images/LUG.gif" alt="Card image cap">
+				<div class="card-block">
+					<h3 class="card-title">Living Underground</h3>
+					<p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+					<p class="card-text"><small class="text-muted">2008</small></p>
+				</div>
+			</div>
+		</div>
+
+		<div class="writingsCol">
+			<div class="card card2">
+				<img class="card-img-top" src="images/LUG.gif" alt="Card image cap">
+				<div class="card-block">
+					<h3 class="card-title">Living Underground</h3>
+					<p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+					<p class="card-text"><small class="text-muted">2008</small></p>
+				</div>
+			</div>
+		</div>
+
+		<div class="writingsCol">
+			<div class="card card2">
+				<img class="card-img-top" src="images/LUG.gif" alt="Card image cap">
+				<div class="card-block">
+					<h3 class="card-title">Living Underground</h3>
+					<p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+					<p class="card-text"><small class="text-muted">2008</small></p>
+				</div>
+			</div>
+		</div>
+		<div class="writingsCol">
+			<div class="card card2">
 				<img class="card-img-top" src="images/LUG.gif" alt="Card image cap">
 				<div class="card-block">
 					<h3 class="card-title">Living Underground</h3>

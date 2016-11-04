@@ -56,11 +56,11 @@
 			</div>
 			<div class="navbar-collapse collapse">
 				<ul class="nav navbar-nav navbar-right">
-					<li><a href="#home">Home</a></li>
-					<li><a href="#about">About</a></li>
-					<li><a href="#timeline">Time Line</a></li>
+					<li><a href="index.php#home">Home</a></li>
+					<li><a href="index.php#about">About</a></li>
+					<li><a href="index.php#timeline">Time Line</a></li>
 					<li><a href="#Music">Music's</a></li>
-					<li><a href="#Written">Written's</a></li>
+					<li><a href="#Writtings">Writting's</a></li>
 					<li><a href="#galery">Galery</a></li>
 					<li><a href="#contact">Contact</a></li>
 				</ul>
@@ -84,7 +84,7 @@
 
 
 <div>
-	<hr class="mainHR"/><h2 class="afterHR">Album's</h2>
+	<hr id="Music" class="mainHR"/><h2 class="afterHR">Album's</h2>
 	<div class="continer" style="max-width:1024px;">
 
 		<div class="col-md-3 col-sm-4 col-xs-6">

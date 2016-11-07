@@ -24,6 +24,7 @@ html, body {
 
 
 
+
 /***********************************************
 *************** Nav Bar Style! *****************
 ***********************************************/
@@ -606,3 +607,120 @@ line-height: 25px;
     width: 40px;
   }
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*************************************************************
+**************************************************************
+*************************************************************/
+
+.afterHR {
+    position: relative;
+    margin: -35px 0 0 20px;
+   float: left; 
+   font-size: 1.5em;
+}
+.mainHR{
+    width: 85vw;
+    padding-top: 138px;
+    margin-left: 111px;
+    border-top: none;
+    border-bottom: 1px solid; 
+}
+
+@media ( max-width: 767px ){
+    .mainHR{  
+        width:80vw;
+    }
+}
+
+
+
+.card {
+    background-color: rgba(0,0,0,0.5);
+    margin-bottom: 30px;
+}
+.card2{
+    width:185px;
+}
+.writingsCol{
+    float:left;
+    position: relative;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+.card-block{
+    padding: 10px;
+}
+.card-img-top{
+    width:100%;
+}
+.card-title{
+    margin-top: 0px;
+}
+.card-text{
+    text-align: justify;
+}
+
+.gallery
+{
+    display: inline-block;
+    margin-top: 20px;
+}
+
+.thumbnail {
+    display: block;
+    padding: 1px;
+    margin-bottom: 20px;
+    line-height: 1.42857143;
+    background-color: #000;
+    border: 1px solid #222;
+    border-radius: 1px;
+}
+.fancybox-nav span {
+    visibility: visible !important;
+}
+.fancybox-nav:hover span {
+    visibility: visible;
+}
+.fancybox-title-over-wrap {
+    background: rgba(0, 0, 0, .6) !important;
+    padding: 5px 10px 5px 10px !important;
+}
+
+
+
+
+
+
+

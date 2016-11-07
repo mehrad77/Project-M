@@ -16,9 +16,10 @@
 	<link href="css/animations.css" rel="stylesheet" />
 	<!-- STYLES FOR VIEWPORT ANIMATION -->
 	<link href="css/animations.min.css" rel="stylesheet" />
-	<link rel="stylesheet" href="js/vegas/vegas.min.css">
+	<link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.5/jquery.fancybox.min.css" media="screen">
 	<!-- CUSTOM CSS -->
 	<link rel="stylesheet" href="css/worksstyle.css">
+		<link rel="stylesheet" href="js/vegas/vegas.min.css">
 
 
 
@@ -61,7 +62,7 @@
 					<li><a href="index.php#timeline">Time Line</a></li>
 					<li><a href="#Music">Music's</a></li>
 					<li><a href="#Writtings">Writting's</a></li>
-					<li><a href="#galery">Galery</a></li>
+					<li><a href="#gallery">Galery</a></li>
 					<li><a href="#contact">Contact</a></li>
 				</ul>
 			</div>
@@ -184,7 +185,7 @@
 
 
 <div style="margin-top:50px;">
-	<hr class="mainHR"/><h2 class="afterHR">Writings</h2>
+	<hr id="Writtings" class="mainHR"/><h2 class="afterHR">Writings</h2>
 	<div class="continer"  style="max-width:2048px;">
 
 		<div class="writingsCol">
@@ -393,7 +394,47 @@
 
 
 
-
+<div style="margin-top:50px; padding:0px 20px 0px 20px">
+	<hr id="gallery" class="mainHR"/><h2 class="afterHR">Galery</h2>
+	<div class="continer"  style="max-width:2048px;">
+	<div class="row">
+		<div class='list-group gallery'>
+            <div class='col-sm-4 col-xs-6 col-md-3 col-lg-3'>
+                <a class="thumbnail fancybox" rel="ligthbox" href="img/640.png">
+                    <img class="img-responsive" alt="" src="img/320.png" />
+                </a>
+            </div> <!-- col-6 / end -->
+            <div class='col-sm-4 col-xs-6 col-md-3 col-lg-3'>
+                <a class="thumbnail fancybox" rel="ligthbox" href="img/640.png">
+                    <img class="img-responsive" alt="" src="img/320.png" />
+                </a>
+            </div> <!-- col-6 / end -->
+            <div class='col-sm-4 col-xs-6 col-md-3 col-lg-3'>
+                <a class="thumbnail fancybox" rel="ligthbox" href="img/640.png">
+                    <img class="img-responsive" alt="" src="img/320.png" />
+                </a>
+            </div> <!-- col-6 / end -->
+            <div class='col-sm-4 col-xs-6 col-md-3 col-lg-3'>
+                <a class="thumbnail fancybox" rel="ligthbox" href="img/640.png">
+                    <img class="img-responsive" alt="" src="img/320.png" />
+                </a>
+            </div> <!-- col-6 / end -->
+            <div class='col-sm-4 col-xs-6 col-md-3 col-lg-3'>
+                <a class="thumbnail fancybox" rel="ligthbox" href="img/640.png">
+                    <img class="img-responsive" alt="" src="img/320.png" />
+                </a>
+            </div> <!-- col-6 / end -->
+            <div class='col-sm-4 col-xs-6 col-md-3 col-lg-3'>
+                <a class="thumbnail fancybox" rel="ligthbox" href="img/640.png">
+                    <img class="img-responsive" alt="" src="img/320.png" />
+                    <!-- <div class='text-right'>
+                        <small class='text-muted'>Image Title</small>
+                    </div>  text-right / end -->
+                </a>
+            </div> <!-- col-6 / end -->
+        </div> <!-- list-group / end -->
+	</div> <!-- row / end -->
+</div> <!-- container / end -->
 
 
 
@@ -413,13 +454,15 @@
 	<!-- CORE JQUERY -->
 	<script src="js/jquery-1.11.1.js"></script>
 	<script src="js/jquery-ui.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.5/jquery.fancybox.min.js"></script>
+
 	<!-- BOOTSTRAP SCRIPTS -->
 	<!-- VEGAS SLIDESHOW SCRIPTS -->
 	<script src="js/bootstrap.min.js"></script>
 	<!-- EASING SCROLL SCRIPTS PLUGIN -->
 	<script src="js/vegas/vegas.min.js"></script>
 	<!-- CUSTOM SCRIPTS -->
-	<script src="js/custom2.js"></script>
+	<script src="js/custom3.js"></script>
 
 	<script>
 		

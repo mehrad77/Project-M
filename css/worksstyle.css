@@ -6,11 +6,27 @@
    font-size: 1.5em;
 }
 .mainHR{
-width:80vw;
-padding-top: 138px;
-border-top: none;
-border-bottom: 1px solid; 
+    width: 85vw;
+    padding-top: 138px;
+    margin-left: 111px;
+    border-top: none;
+    border-bottom: 1px solid; 
 }
+
+@media ( max-width: 767px ){
+    .mainHR{  
+        width:80vw;
+    }
+}
+
+
+
+
+
+
+
+
+
 .card {
     background-color: rgba(0,0,0,0.5);
     margin-bottom: 30px;
@@ -37,6 +53,43 @@ border-bottom: 1px solid;
 .card-text{
     text-align: justify;
 }
+
+
+
+
+
+
+
+
+
+.gallery
+{
+    display: inline-block;
+    margin-top: 20px;
+}
+
+.thumbnail {
+    display: block;
+    padding: 1px;
+    margin-bottom: 20px;
+    line-height: 1.42857143;
+    background-color: #000;
+    border: 1px solid #222;
+    border-radius: 1px;
+}
+.fancybox-nav span {
+    visibility: visible;
+}
+
+
+
+
+
+
+
+
+
+
 
 
 

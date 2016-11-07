@@ -1,4 +1,5 @@
-<!DOCTYPE html>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html lang="en">
 
 <head>
@@ -347,6 +348,375 @@
 		</div>
 	</div>
 
+
+<div>
+	<hr id="Music" class="mainHR"/><h2 class="afterHR">Album's</h2>
+	<div class="continer" style="max-width:1024px;">
+
+		<div class="col-md-3 col-sm-4 col-xs-6">
+			<div class="card">
+				<img class="card-img-top" src="images/LUG.gif" alt="Card image cap">
+				<div class="card-block">
+					<h3 class="card-title">Living Underground</h3>
+					<p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+					<p class="card-text"><small class="text-muted">2008</small></p>
+				</div>
+			</div>
+		</div>
+
+		<div class="col-md-3 col-sm-4 col-xs-6">
+			<div class="card">
+				<img class="card-img-top" src="images/LUG.gif" alt="Card image cap">
+				<div class="card-block">
+					<h3 class="card-title">Living Underground</h3>
+					<p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+					<p class="card-text"><small class="text-muted">2008</small></p>
+				</div>
+			</div>
+		</div>
+
+		<div class="col-md-3 col-sm-4 col-xs-6">
+			<div class="card">
+				<img class="card-img-top" src="images/LUG.gif" alt="Card image cap">
+				<div class="card-block">
+					<h3 class="card-title">Living Underground</h3>
+					<p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+					<p class="card-text"><small class="text-muted">2008</small></p>
+				</div>
+			</div>
+		</div>
+
+		<div class="col-md-3 col-sm-4 col-xs-6">
+			<div class="card">
+				<img class="card-img-top" src="images/LUG.gif" alt="Card image cap">
+				<div class="card-block">
+					<h3 class="card-title">Living Underground</h3>
+					<p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+					<p class="card-text"><small class="text-muted">2008</small></p>
+				</div>
+			</div>
+		</div>
+
+		<div class="col-md-3 col-sm-4 col-xs-6">
+			<div class="card">
+				<img class="card-img-top" src="images/LUG.gif" alt="Card image cap">
+				<div class="card-block">
+					<h3 class="card-title">Living Underground</h3>
+					<p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+					<p class="card-text"><small class="text-muted">2008</small></p>
+				</div>
+			</div>
+		</div>
+
+		<div class="col-md-3 col-sm-4 col-xs-6">
+			<div class="card">
+				<img class="card-img-top" src="images/LUG.gif" alt="Card image cap">
+				<div class="card-block">
+					<h3 class="card-title">Living Underground</h3>
+					<p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+					<p class="card-text"><small class="text-muted">2008</small></p>
+				</div>
+			</div>
+		</div>
+
+		<div class="col-md-3 col-sm-4 col-xs-6">
+			<div class="card">
+				<img class="card-img-top" src="images/LUG.gif" alt="Card image cap">
+				<div class="card-block">
+					<h3 class="card-title">Living Underground</h3>
+					<p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+					<p class="card-text"><small class="text-muted">2008</small></p>
+				</div>
+			</div>
+		</div>
+
+		<div class="col-md-3 col-sm-4 col-xs-6">
+			<div class="card">
+				<img class="card-img-top" src="images/LUG.gif" alt="Card image cap">
+				<div class="card-block">
+					<h3 class="card-title">Living Underground</h3>
+					<p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+					<p class="card-text"><small class="text-muted">2008</small></p>
+				</div>
+			</div>
+		</div>
+
+	</div>
+</div>
+
+
+
+
+
+
+<div style="margin-top:50px;">
+	<hr id="Writtings" class="mainHR"/><h2 class="afterHR">Writings</h2>
+	<div class="continer"  style="max-width:2048px;">
+
+		<div class="writingsCol">
+			<div class="card card2">
+				<img class="card-img-top" src="images/LUG.gif" alt="Card image cap">
+				<div class="card-block">
+					<h3 class="card-title">Living Underground</h3>
+					<p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+					<p class="card-text"><small class="text-muted">2008</small></p>
+				</div>
+			</div>
+		</div>
+
+		<div class="writingsCol">
+			<div class="card card2">
+				<img class="card-img-top" src="images/LUG.gif" alt="Card image cap">
+				<div class="card-block">
+					<h3 class="card-title">Living Underground</h3>
+					<p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+					<p class="card-text"><small class="text-muted">2008</small></p>
+				</div>
+			</div>
+		</div>
+
+		<div class="writingsCol">
+			<div class="card card2">
+				<img class="card-img-top" src="images/LUG.gif" alt="Card image cap">
+				<div class="card-block">
+					<h3 class="card-title">Living Underground</h3>
+					<p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+					<p class="card-text"><small class="text-muted">2008</small></p>
+				</div>
+			</div>
+		</div>
+
+		<div class="writingsCol">
+			<div class="card card2">
+				<img class="card-img-top" src="images/LUG.gif" alt="Card image cap">
+				<div class="card-block">
+					<h3 class="card-title">Living Underground</h3>
+					<p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+					<p class="card-text"><small class="text-muted">2008</small></p>
+				</div>
+			</div>
+		</div>
+
+		<div class="writingsCol">
+			<div class="card card2">
+				<img class="card-img-top" src="images/LUG.gif" alt="Card image cap">
+				<div class="card-block">
+					<h3 class="card-title">Living Underground</h3>
+					<p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+					<p class="card-text"><small class="text-muted">2008</small></p>
+				</div>
+			</div>
+		</div>
+
+		<div class="writingsCol">
+			<div class="card card2">
+				<img class="card-img-top" src="images/LUG.gif" alt="Card image cap">
+				<div class="card-block">
+					<h3 class="card-title">Living Underground</h3>
+					<p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+					<p class="card-text"><small class="text-muted">2008</small></p>
+				</div>
+			</div>
+		</div>
+
+		<div class="writingsCol">
+			<div class="card card2">
+				<img class="card-img-top" src="images/LUG.gif" alt="Card image cap">
+				<div class="card-block">
+					<h3 class="card-title">Living Underground</h3>
+					<p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+					<p class="card-text"><small class="text-muted">2008</small></p>
+				</div>
+			</div>
+		</div>
+
+		<div class="writingsCol">
+			<div class="card card2">
+				<img class="card-img-top" src="images/LUG.gif" alt="Card image cap">
+				<div class="card-block">
+					<h3 class="card-title">Living Underground</h3>
+					<p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+					<p class="card-text"><small class="text-muted">2008</small></p>
+				</div>
+			</div>
+		</div>
+
+
+		<div class="writingsCol">
+			<div class="card card2">
+				<img class="card-img-top" src="images/LUG.gif" alt="Card image cap">
+				<div class="card-block">
+					<h3 class="card-title">Living Underground</h3>
+					<p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+					<p class="card-text"><small class="text-muted">2008</small></p>
+				</div>
+			</div>
+		</div>
+
+		<div class="writingsCol">
+			<div class="card card2">
+				<img class="card-img-top" src="images/LUG.gif" alt="Card image cap">
+				<div class="card-block">
+					<h3 class="card-title">Living Underground</h3>
+					<p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+					<p class="card-text"><small class="text-muted">2008</small></p>
+				</div>
+			</div>
+		</div>
+
+		<div class="writingsCol">
+			<div class="card card2">
+				<img class="card-img-top" src="images/LUG.gif" alt="Card image cap">
+				<div class="card-block">
+					<h3 class="card-title">Living Underground</h3>
+					<p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+					<p class="card-text"><small class="text-muted">2008</small></p>
+				</div>
+			</div>
+		</div>
+
+		<div class="writingsCol">
+			<div class="card card2">
+				<img class="card-img-top" src="images/LUG.gif" alt="Card image cap">
+				<div class="card-block">
+					<h3 class="card-title">Living Underground</h3>
+					<p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+					<p class="card-text"><small class="text-muted">2008</small></p>
+				</div>
+			</div>
+		</div>
+
+		<div class="writingsCol">
+			<div class="card card2">
+				<img class="card-img-top" src="images/LUG.gif" alt="Card image cap">
+				<div class="card-block">
+					<h3 class="card-title">Living Underground</h3>
+					<p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+					<p class="card-text"><small class="text-muted">2008</small></p>
+				</div>
+			</div>
+		</div>
+
+		<div class="writingsCol">
+			<div class="card card2">
+				<img class="card-img-top" src="images/LUG.gif" alt="Card image cap">
+				<div class="card-block">
+					<h3 class="card-title">Living Underground</h3>
+					<p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+					<p class="card-text"><small class="text-muted">2008</small></p>
+				</div>
+			</div>
+		</div>
+
+		<div class="writingsCol">
+			<div class="card card2">
+				<img class="card-img-top" src="images/LUG.gif" alt="Card image cap">
+				<div class="card-block">
+					<h3 class="card-title">Living Underground</h3>
+					<p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+					<p class="card-text"><small class="text-muted">2008</small></p>
+				</div>
+			</div>
+		</div>
+
+		<div class="writingsCol">
+			<div class="card card2">
+				<img class="card-img-top" src="images/LUG.gif" alt="Card image cap">
+				<div class="card-block">
+					<h3 class="card-title">Living Underground</h3>
+					<p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+					<p class="card-text"><small class="text-muted">2008</small></p>
+				</div>
+			</div>
+		</div>
+
+		<div class="writingsCol">
+			<div class="card card2">
+				<img class="card-img-top" src="images/LUG.gif" alt="Card image cap">
+				<div class="card-block">
+					<h3 class="card-title">Living Underground</h3>
+					<p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+					<p class="card-text"><small class="text-muted">2008</small></p>
+				</div>
+			</div>
+		</div>
+		<div class="writingsCol">
+			<div class="card card2">
+				<img class="card-img-top" src="images/LUG.gif" alt="Card image cap">
+				<div class="card-block">
+					<h3 class="card-title">Living Underground</h3>
+					<p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+					<p class="card-text"><small class="text-muted">2008</small></p>
+				</div>
+			</div>
+		</div>
+
+
+	</div>
+</div>
+	
+
+
+
+
+<div style="margin-top:50px; padding:0px 20px 0px 20px">
+	<hr id="gallery" class="mainHR"/><h2 class="afterHR">Galery</h2>
+	<div class="continer"  style="max-width:2048px;">
+	<div class="row">
+		<div class='list-group gallery'>
+            <div class='col-sm-4 col-xs-6 col-md-3 col-lg-3'>
+                <a class="thumbnail fancybox-thumbs" title="My custom title here" rel="ligthbox" href="images/640.png">
+                    <img class="img-responsive" alt="" src="images/320.png" />
+                </a>
+            </div> <!-- col-6 / end -->
+            <div class='col-sm-4 col-xs-6 col-md-3 col-lg-3'>
+                <a class="thumbnail fancybox-thumbs" title="My custom title here" rel="ligthbox" href="images/640.png">
+                    <img class="img-responsive" alt="" src="images/320.png" />
+                </a>
+            </div> <!-- col-6 / end -->
+            <div class='col-sm-4 col-xs-6 col-md-3 col-lg-3'>
+                <a class="thumbnail fancybox-thumbs" title="My custom title here" rel="ligthbox" href="images/640.png">
+                    <img class="img-responsive" alt="" src="images/320.png" />
+                </a>
+            </div> <!-- col-6 / end -->
+            <div class='col-sm-4 col-xs-6 col-md-3 col-lg-3'>
+                <a class="thumbnail fancybox-thumbs" title="My custom title here" rel="ligthbox" href="images/640.png">
+                    <img class="img-responsive" alt="" src="images/320.png" />
+                </a>
+            </div> <!-- col-6 / end -->
+            <div class='col-sm-4 col-xs-6 col-md-3 col-lg-3'>
+                <a class="thumbnail fancybox-thumbs" title="My custom title here" rel="ligthbox" href="images/640.png">
+                    <img class="img-responsive" alt="" src="images/320.png" />
+                </a>
+            </div> <!-- col-6 / end -->
+            <div class='col-sm-4 col-xs-6 col-md-3 col-lg-3'>
+                <a class="thumbnail fancybox-thumbs" title="My custom title here" rel="ligthbox" href="images/640.png">
+                    <img class="img-responsive" alt="" src="images/320.png" />
+                    <!-- <div class='text-right'>
+                        <small class='text-muted'>Image Title</small>
+                    </div>  text-right / end -->
+                </a>
+            </div> <!-- col-6 / end -->
+        </div> <!-- list-group / end -->
+	</div> <!-- row / end -->
+</div> <!-- container / end -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 	<footer class="footer">
 		<ul class="socialmob">
 			<li><a href="#" class="btn button-custom btn-custom-one tw"><i class="fa fa-twitter"></i></a></li>
@@ -361,22 +731,80 @@
 		</div>
 	</footer>
 
-	<!-- JAVASCRIPT FILES PLACED AT THE BOTTOM TO REDUCE THE LOADING TIME -->
+
+<!-- Add jQuery library -->
+	<script type="text/javascript" src="lib/jquery-1.10.1.min.js"></script>
+
+	<!-- Add mousewheel plugin (this is optional) -->
+	<script type="text/javascript" src="lib/jquery.mousewheel-3.0.6.pack.js"></script>
+
+	<!-- Add fancyBox main JS and CSS files -->
+	<script type="text/javascript" src="source/jquery.fancybox.js?v=2.1.5"></script>
+	<link rel="stylesheet" type="text/css" href="source/jquery.fancybox.css?v=2.1.5" media="screen" />
+
+	<!-- Add Button helper (this is optional) -->
+	<link rel="stylesheet" type="text/css" href="source/helpers/jquery.fancybox-buttons.css?v=1.0.5" />
+	<script type="text/javascript" src="source/helpers/jquery.fancybox-buttons.js?v=1.0.5"></script>
+
+	<!-- Add Thumbnail helper (this is optional) -->
+	<link rel="stylesheet" type="text/css" href="source/helpers/jquery.fancybox-thumbs.css?v=1.0.7" />
+	<script type="text/javascript" src="source/helpers/jquery.fancybox-thumbs.js?v=1.0.7"></script>
+
+	<!-- Add Media helper (this is optional) -->
+	<script type="text/javascript" src="source/helpers/jquery.fancybox-media.js?v=1.0.6"></script>
+
+	<script type="text/javascript">
+		$(document).ready(function() {
+
+			$('.fancybox-thumbs').fancybox({
+				openEffect  : 'elastic',
+				openSpeed   : 200,
+				closeSpeed  : 200,
+				nextSpeed   : 350,
+				prevSpeed   : 350,
+				closeEffect : 'elastic',
+				
+
+
+				closeBtn  : false,
+				arrows    : true,
+				nextClick : true,
+				titlePosition  : 'inside',
+				padding   :  3,
+				helpers : {
+					
+					thumbs : {
+						position : 'bottom',
+						width  : 50,
+						height : 50
+					},
+					title : {
+						type : 'over'
+					},
+					overlay : {
+						css : {
+							'background' : 'rgba(0,0,0,0.85)'
+						}
+						
+					}
+				}
+			});
+
+
+		});
+	</script>
+
+
+
+		<!-- JAVASCRIPT FILES PLACED AT THE BOTTOM TO REDUCE THE LOADING TIME -->
 	<!-- CORE JQUERY -->
-	<script src="js/jquery-1.11.1.js"></script>
 	<script src="js/jquery-ui.min.js"></script>
-	<!-- BOOTSTRAP SCRIPTS -->
 	<!-- VEGAS SLIDESHOW SCRIPTS -->
 	<script src="js/bootstrap.min.js"></script>
 	<!-- EASING SCROLL SCRIPTS PLUGIN -->
 	<script src="js/vegas/vegas.min.js"></script>
 	<!-- CUSTOM SCRIPTS -->
 	<script src="js/custom2.js"></script>
-
-	<script>
-		
-
-	</script>
 </body>
 
 </html>
